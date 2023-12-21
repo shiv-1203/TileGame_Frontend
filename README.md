@@ -31,7 +31,7 @@ This repository comprises a web application with a React.js frontend and a Node.
   - Tiles blink three times quickly when clicked, providing visual feedback.
 
 ### Instructions
-- Initially, users can see the instructions or the notepad while opening the [TileGame_Backend](https://tilegame-backend.onrender.com/).
+- Initially, users can see the instructions or the notepad while opening the [TileGame](https://shiv-1203.github.io/TileGame_Frontend/).
 - Users should follow the instructions mentioned in the "Instructions" tab before interacting with the game.
 - One should wait for sometime after clicking the start button as the backend server takes time to implement.
 
