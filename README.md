@@ -32,14 +32,14 @@ This repository comprises a web application with a React.js frontend and a Node.
 
 ### Instructions
 - Initially, users can see the instructions or the notepad while opening the [TileGame](https://shiv-1203.github.io/TileGame_Frontend/).
-- Users should follow the instructions mentioned in the "Instructions" tab before interacting with the game.
+- Users should follow the instructions mentioned in the **"Instructions"** section before interacting with the game.
 - One should wait for sometime after clicking the start button as the backend server takes time to implement.
 
 ### How to Run
 1. Click or open [TileGame](https://shiv-1203.github.io/TileGame_Frontend/) in a web browser.
-2. Follow the instructions presented in the "Instructions" tab.
-3. Use the start and stop button to control the game.
-4. Adjust the speed slider for different animation speeds.
+2. Follow the instructions presented in the **"Instructions"** section.
+3. Use the **start and stop button** to control the game.
+4. Adjust the **speed slider** for different animation speeds.
 
 Enjoy the game!
 
