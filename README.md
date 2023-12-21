@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Description of TileGame_Frontend Project
+Crafted an interactive 10x10 tile animation game using Node.js for the backend and React.js for the frontend. The dynamic frontend seamlessly communicates with the backend, ensuring real-time updates and an engaging user experience. Players navigate a visually captivating grid, enhancing the overall enjoyment of the game.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Note:** While running this application through the provided link, please be aware that there might be a delay as the frontend makes requests to the backend. Kindly be patient and allow sufficient time for the interaction between the frontend and backend to complete. Your understanding is appreciated.
 
-## Available Scripts
+## Project Description
+![image](https://github.com/shiv-1203/TileGame_Frontend/assets/105982373/34ebe010-1cfe-4f3e-8b20-10cb5ec017bf)
 
-In the project directory, you can run:
+This repository comprises a web application with a React.js frontend and a Node.js backend. The final output window is visually represented in the provided image. The 10x10 grid shown in the image is dynamically served from the backend, accessible at [TileGame_Backend](https://tilegame-backend.onrender.com/). The following features are implemented:
 
-### `npm start`
+### Game Overview
+- Replicated a 10x10 tile animation as an interactive game with 10x10 square tiles.
+- Added a start and stop button for user control.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Game Features
+- **Start and Stop Button:**
+  - Initiates and halts the game, providing user control.
+  - Resets the score to zero when the game is started.
+  - Resets the score to zero when the game is stopped.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Speed Control:**
+  - Implemented an option to control the speed of the animation.
+  - Speed ranges from 1 to 5, corresponding to intervals of 250ms to 50ms.
 
-### `npm test`
+- **Score System:**
+  - Displayed a score counter.
+  - +10 points awarded for clicking on a blue tile.
+  - -10 points deducted for clicking on a red tile.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Tile Interaction:**
+  - Tiles blink three times quickly when clicked, providing visual feedback.
 
-### `npm run build`
+### Instructions
+- Initially, users can see the instructions or the notepad while opening the [TileGame_Backend](https://tilegame-backend.onrender.com/).
+- Users should follow the instructions mentioned in the "Instructions" tab before interacting with the game.
+- One should wait for sometime after clicking the start button as the backend server takes time to implement.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to Run
+1. Click or open [TileGame](https://shiv-1203.github.io/TileGame_Frontend/) in a web browser.
+2. Follow the instructions presented in the "Instructions" tab.
+3. Use the start and stop button to control the game.
+4. Adjust the speed slider for different animation speeds.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Enjoy the game!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
+Before you begin, ensure you have the following prerequisites:
 
-### `npm run eject`
+- **npm:** The Node.js package manager.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install or update npm to the latest version, run the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install npm@latest -g
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Initial Setup
+To initialize a React app named "tilegame" using Create React App, run the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npx create-react-app tilegame
+```
+ You can clone this repository for your own use [https://github.com/shiv-1203/TileGame_Frontend.git](https://github.com/shiv-1203/TileGame_Frontend.git)
 
-## Learn More
+## Required Module Installation
+Install the following modules to ensure proper functionality:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install axios react-dom react-router-dom
+```
+```bash
+npm install gh-pages --save-dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+These commands will download and install the necessary dependencies for your React application. Make sure to run them in the root directory of your **"tilegame"** project.
 
-### Code Splitting
+## Dynamic Color Columns Generation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This web-based game features a grid with the initial two columns always in green. The subsequent columns alternate between blue and black, generated dynamically using random functions. A distinctive red bar, spanning two columns, adds a challenging element, creating an engaging and visually dynamic gaming experience.
