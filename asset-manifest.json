@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TileGame_Frontend/static/css/main.f0cfbe06.css",
+    "main.js": "/TileGame_Frontend/static/js/main.ea59e6d7.js",
+    "static/js/496.59595bdc.chunk.js": "/TileGame_Frontend/static/js/496.59595bdc.chunk.js",
+    "index.html": "/TileGame_Frontend/index.html",
+    "main.f0cfbe06.css.map": "/TileGame_Frontend/static/css/main.f0cfbe06.css.map",
+    "main.ea59e6d7.js.map": "/TileGame_Frontend/static/js/main.ea59e6d7.js.map",
+    "496.59595bdc.chunk.js.map": "/TileGame_Frontend/static/js/496.59595bdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0cfbe06.css",
+    "static/js/main.ea59e6d7.js"
+  ]
+}
